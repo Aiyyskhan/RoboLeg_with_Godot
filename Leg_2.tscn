@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Leg_2.glb" type="PackedScene" id=1]
+
+[node name="Leg_2" instance=ExtResource( 1 )]
+
+[node name="Skeleton" parent="Armature" index="0"]
+bones/0/bound_children = [ NodePath("BoneAttachment 4") ]
+bones/1/bound_children = [ NodePath("BoneAttachment 3") ]
+bones/3/bound_children = [ NodePath("BoneAttachment 2") ]
+bones/4/bound_children = [ NodePath("BoneAttachment") ]
+
+[node name="BoneAttachment" parent="Armature/Skeleton" index="0"]
+transform = Transform( 1, -1.67283e-16, 2.38419e-07, -8.06622e-10, -0.999994, 0.00338322, 2.38417e-07, -0.00338322, -0.999994, -7.59232e-16, -3.63803, -2.32014 )
+
+[node name="BoneAttachment 2" parent="Armature/Skeleton" index="1"]
+transform = Transform( 1, -2.22045e-16, -2.22045e-16, -2.22045e-16, -1, -5.4948e-08, -2.22045e-16, 5.68107e-08, -1, -4.11612e-16, -1.11741, -2.32014 )
+
+[node name="BoneAttachment 3" parent="Armature/Skeleton" index="2"]
+transform = Transform( 1, -1.00927e-18, -2.30504e-21, -2.28529e-21, -0.00454541, 0.99999, -1.00928e-18, -0.99999, -0.00454541, 1.88655e-16, -0.0136539, -1.09249 )
+
+[node name="BoneAttachment 4" parent="Armature/Skeleton" index="3"]
+transform = Transform( 1, -2.06005e-16, -1.28725e-18, -1.28723e-18, -0.0124967, 0.999922, -2.06005e-16, -0.999922, -0.0124967, 0, 0, 0 )
