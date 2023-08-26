@@ -17,6 +17,7 @@ transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3.282,
 [node name="target" type="MeshInstance" parent="."]
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 2.01487, -0.241818, 1.24431 )
 mesh = SubResource( 1 )
+material/0 = null
 
 [node name="Observer" type="KinematicBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.02553 )
@@ -27,15 +28,19 @@ script = ExtResource( 3 )
 [node name="p0" type="MeshInstance" parent="."]
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 3.58165, -0.472784, -9.24357 )
 mesh = SubResource( 2 )
+material/0 = null
 
 [node name="p1" type="MeshInstance" parent="."]
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 4.81022, 0.739857, 2.62908 )
 mesh = SubResource( 2 )
+material/0 = null
 
 [node name="p2" type="MeshInstance" parent="."]
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 1.4143, -3.63005, -2.74216 )
 mesh = SubResource( 2 )
+material/0 = null
 
 [node name="p3" type="MeshInstance" parent="."]
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -5.09209, -4.32072, 6.49652 )
 mesh = SubResource( 2 )
+material/0 = null

@@ -3,7 +3,6 @@
 [ext_resource path="res://Leg_2/Leg_2.glb" type="PackedScene" id=1]
 
 [node name="Leg_2" instance=ExtResource( 1 )]
-transform = Transform( 1.91069e-15, 4.37114e-08, -1, 1, -4.37114e-08, 0, -4.37114e-08, -1, -4.37114e-08, -3.28159, 0, 5.9902 )
 
 [node name="BoneAttachment" parent="Armature/Skeleton" index="0"]
 transform = Transform( 1, -1.67283e-16, 2.38419e-07, -8.06622e-10, -0.999994, 0.00338322, 2.38417e-07, -0.00338322, -0.999994, -7.59232e-16, -3.63803, -2.32014 )
@@ -16,6 +15,3 @@ transform = Transform( 1, -1.00927e-18, -2.30504e-21, -2.28529e-21, -0.00454541,
 
 [node name="BoneAttachment 4" parent="Armature/Skeleton" index="3"]
 transform = Transform( 1, -2.06005e-16, -1.28725e-18, -1.28723e-18, -0.0124967, 0.999922, -2.06005e-16, -0.999922, -0.0124967, 0, 0, 0 )
-
-[node name="target" parent="." index="1"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.15556 )
